@@ -1,5 +1,7 @@
 "use strict"; // treat all JS code as newer version
 
+// alert(3 + 3) // we are using nodejs and not browser
+
 /*
 number => 2 to power 53
 bigint
@@ -14,5 +16,7 @@ let name = "Devender"
 let age = 22
 let year = 2025
 console.log(typeof age); //it is number
+
 console.log(typeof null); // it is an object......BOOM
+
 console.log(typeof undefined); // it is undefined
