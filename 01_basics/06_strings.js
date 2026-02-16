@@ -1,5 +1,8 @@
 // two methods for defining a string
 const name = 'deepak'
+const height = 187
+
+console.log(`Hello my name is ${name} and my height is ${height}`);
 
 const myName = new String("devender")
 // second way of defining a string includes a lot of functions with it
