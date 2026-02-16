@@ -24,7 +24,7 @@ console.log(Math.floor(Date.now() / 1000)); // seconds till now from 1970
 let newDate = new Date()
 console.log(newDate);
 console.log(newDate.getMonth()); // 3 (because jan is 0)
-console.log(newDate.getDay()); // 1 (because monday is 0)
+console.log(newDate.getDay()); // 1 (because monday is 1 and sunday is 0)
 
 newDate.toLocaleString('default' , {
     weekday : "long"
