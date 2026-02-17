@@ -1,4 +1,6 @@
 // arrays
+// resizeable in JS
+// creates shallow copy (reference)
 
 const myArr = [0, 1, 2, 3, 4, 5, "devender"]
 console.log(myArr[6]);
@@ -41,7 +43,7 @@ console.log(newArr);
 // newArr => 0,1,2,3,4,5,devender
 
 console.log("A ", myArr);
-// [ 0, 1, 2, 3, 4, 5, 'devender' ]
+// A [ 0, 1, 2, 3, 4, 5, 'devender' ]
 
 const myna1 = myArr.slice(1, 3)
 console.log(myna1);
