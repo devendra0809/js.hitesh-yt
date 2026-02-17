@@ -1,4 +1,4 @@
-/* two types to decalre an object
+ /* two types to decalre an object
 1. as literal (that is not singleton)
 2. as constructor (it is singleton)  (object.create)
 SINGLETON => it is an unique object 
